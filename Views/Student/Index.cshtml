@@ -1,0 +1,33 @@
+﻿@model MVCwithWebForms8agosto2019.Models.StudentModel
+
+@*@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>*@
+
+<html>
+<body>
+    @{ 
+        DateTime currentDate = DateTime.Now.Date;
+        DateTime currentDay = DateTime.Now.DayOfWeek();
+    }
+    <div>
+        Today is: @currentDate
+        The day is: @currentDay
+    </div>
+    <div>
+        <h4>Student Info</h4>
+        <div>
+            @Html.CheckBox
+            @Html.DisplayFor(model => model.firstName)
+        </div>
+        <div>
+            @Html.DisplayFor(model => model.lastName)
+        </div>
+        <div>
+            @Html.DisplayFor(model => model.studentId)
+        </div>
+    </div>
+</body>
+</html>
