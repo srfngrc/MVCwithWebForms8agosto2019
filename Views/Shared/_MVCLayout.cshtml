@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/RentMyWrox.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="header">
+    </div>
+    <div id="nav">
+        Navigation content here
+    </div>
+    <div id="section">
+        @RenderBody()
+    </div>
+    <div id="specialnotes">
+        @RenderSection("SpecialNotes", false)
+    </div>
+    <div id="footer">
+        footer content here
+    </div>
+</body>
+</html>
