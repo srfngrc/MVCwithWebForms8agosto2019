@@ -1,0 +1,56 @@
+﻿body {
+    font-family: verdana;
+}
+
+#header {
+    background-color: #C40D42;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 300px;
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+#section {
+    width: 750px;
+    float: left;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #C40D42;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+.dataentry input {
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dataentry textarea {
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.dataentry label {
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#fuPicture {
+    margin-top: -20px;
+    margin-left: 120px;
+}
