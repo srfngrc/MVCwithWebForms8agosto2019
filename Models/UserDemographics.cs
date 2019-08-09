@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+
+//THIS IS THE MODEL, THAT I CREATED IN FIRST HAND
+
 namespace MVCwithWebForms8agosto2019.Models
 {
     public class UserDemographics

@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="NestedMain.master.cs" Inherits="MVCwithWebForms8agosto2019.NestedMain" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <%--SOME JS or CSS FILES--%>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="bodyContent" runat="server">
+    <h1>Content from Nester Master</h1>
+    <asp:ContentPlaceHolder ID="nestedBodyContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
+    <%--SOME SPECIAL FOOTER INFORMATION--%>
+</asp:Content>

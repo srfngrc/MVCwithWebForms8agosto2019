@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
+//THIS IS THE CONTROLLER, THAT I CREATED 2ND, WITH THE FIRST PART OF THE NAME = THE MODEL ALREADY CREATED
+
 namespace MVCwithWebForms8agosto2019.Controllers
 {
     public class UserDemographicsController : Controller

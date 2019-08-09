@@ -6,6 +6,7 @@
 
 <h2>Index</h2>
 
+@*THIS IS THE VIEW, THAT I CREATED IN 3RD POSITION, IN THE FOLDER NAMED AFTER THE NAME OF MODEL&CONTROLLER*@
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -37,32 +38,32 @@
     {
         foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Birthdate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Gender)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.MaritalStatus)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateMovedIntoArea)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.OwnHome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotalPeopleInHome)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                </td>
-            </tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Birthdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaritalStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateMovedIntoArea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OwnHome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPeopleInHome)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
         }
     }
 
-    </table>
+</table>
