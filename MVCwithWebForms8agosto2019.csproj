@@ -171,6 +171,13 @@
     <Compile Include="WebForms.Master.designer.cs">
       <DependentUpon>WebForms.Master</DependentUpon>
     </Compile>
+    <Compile Include="WeeklySpecial.aspx.cs">
+      <DependentUpon>WeeklySpecial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WeeklySpecial.aspx.designer.cs">
+      <DependentUpon>WeeklySpecial.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\ManageItem.aspx" />
@@ -189,6 +196,7 @@
     <Content Include="Main.Master" />
     <Content Include="NestedMain.master" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WeeklySpecial.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
