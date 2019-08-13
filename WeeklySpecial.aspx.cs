@@ -12,7 +12,10 @@ namespace MVCwithWebForms8agosto2019
         protected void Page_Load(object sender, EventArgs e)
         {
             int specialItemId = 24;
-            Response.Redirect("Items/Details/" + specialItemId);
+            //Response.Redirect("Items/Details/" + specialItemId);
+            //Server.Transfer("Items/Details/" + specialItemId);
+            //Server.Transfer("/Admin/UserList.aspx");
+            Server.TransferRequest("Items/Details/" + specialItemId);
         }
     }
 }
