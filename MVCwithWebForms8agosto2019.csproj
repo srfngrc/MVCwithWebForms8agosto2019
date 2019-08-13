@@ -219,6 +219,8 @@
     <Content Include="WebForms.Master" />
     <Content Include="Views\Shared\_MVCLayout.cshtml" />
     <Content Include="Views\UserDemographics\Manage.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

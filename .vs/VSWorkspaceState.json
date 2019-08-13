@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App_Start",
+    "\\Controllers",
+    "\\Views",
+    "\\Views\\Shared",
+    "\\Views\\UserDemographics"
   ],
-  "SelectedNode": "\\MVCwithWebForms8agosto2019.sln",
+  "SelectedNode": "\\Views\\Shared\\_MVCLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -13,9 +13,14 @@ namespace MVCwithWebForms8agosto2019.Controllers
             return View();
         }
 
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            //ViewBag.Message = "Your application description page.";
 
             return View();
         }
