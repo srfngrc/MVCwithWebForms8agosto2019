@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCwithWebForms8agosto2019.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,7 +15,11 @@ namespace MVCwithWebForms8agosto2019.Controllers
         // GET: UserDemographics
         public ActionResult Index()
         {
-            return View();
+            using (RentMyWroxContext context = new RentMyWroxContext())
+            {
+                var list = context.UserDemographics.OrderBy(x => x.Birthdate).ToList();
+                return View(list);
+            }
         }
 
         // GET: UserDemographics/Details/5
@@ -48,7 +53,8 @@ namespace MVCwithWebForms8agosto2019.Controllers
         // GET: UserDemographics/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var model = new UserDemographics();
+            return View("Manage", model);
         }
 
         // POST: UserDemographics/Edit/5

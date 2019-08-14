@@ -150,3 +150,7 @@ C:\VSRepositories\MVCwithWebForms8agosto2019\obj\Debug\MVCwithWebForms8agosto201
 C:\VSRepositories\MVCwithWebForms8agosto2019\obj\Debug\MVCwithWebForms8agosto2019.csproj.CopyComplete
 C:\VSRepositories\MVCwithWebForms8agosto2019\obj\Debug\MVCwithWebForms8agosto2019.dll
 C:\VSRepositories\MVCwithWebForms8agosto2019\obj\Debug\MVCwithWebForms8agosto2019.pdb
+C:\VSRepositories\MVCwithWebForms8agosto2019\bin\EntityFramework.dll
+C:\VSRepositories\MVCwithWebForms8agosto2019\bin\EntityFramework.SqlServer.dll
+C:\VSRepositories\MVCwithWebForms8agosto2019\bin\EntityFramework.xml
+C:\VSRepositories\MVCwithWebForms8agosto2019\bin\EntityFramework.SqlServer.xml
