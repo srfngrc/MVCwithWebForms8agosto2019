@@ -8,6 +8,7 @@ namespace MVCwithWebForms8agosto2019.Models
 {
     public class Hobby
     {
+
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
